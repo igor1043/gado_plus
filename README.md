@@ -18,12 +18,5 @@ Sistema de controle  que facilita a gestão de propriedade, gastos e pesagem de 
 ![5](imagens/device-2020-04-03-101437.png)
 ## Autor
 
-* **Marcos Rocha** 
-
-Veja também a lista de contribuidores(https://github.com/dev-marcos/Gado-Plus/contributors) que participaram deste projeto.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md] (LICENSE.md) para obter detalhes
-
+* **Igor Vinicius Freitas de Souza** 
 
