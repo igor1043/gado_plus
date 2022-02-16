@@ -22,6 +22,14 @@ buildscript {
     }
 }
 
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.6.20-M1'
+}
+
+repositories {
+    mavenCentral()
+}
+
 allprojects {
     repositories {
         google()
@@ -30,15 +38,6 @@ allprojects {
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
-plugins {
-    id 'org.jetbrains.kotlin.jvm' version '1.6.20-M1'
-}
-repositories {
-    mavenCentral()
-}
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
