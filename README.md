@@ -11,11 +11,7 @@ Sistema de controle  que facilita a gestão de propriedade, gastos e pesagem de 
 
 ## Aplicativo
 
-![1](imagens/device-2020-04-03-100805.png)
-![2](imagens/device-2020-04-03-103726.png)
-![3](imagens/device-2020-04-03-100917.png)
-![4](imagens/device-2020-04-03-100935.png)
-![5](imagens/device-2020-04-03-101437.png)
+
 ## Autor
 
 * **Igor Vinicius Freitas de Souza** 
