@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="br.edu.farol.gadoplus.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_animais"
+        android:name="br.edu.farol.gadoplus.ui.animais.AnimaisFragment"
+        android:label="@string/menu_animais"
+        tools:layout="@layout/fragment_animais" />
+
+    <fragment
+        android:id="@+id/nav_lotes"
+        android:name="br.edu.farol.gadoplus.ui.lotes.LotesFragment"
+        android:label="@string/menu_lotes"
+        tools:layout="@layout/fragment_lotes" />
+
+    <fragment
+        android:id="@+id/nav_pesagem"
+        android:name="br.edu.farol.gadoplus.ui.pesagem.PesagemFragment"
+        android:label="@string/menu_pesagem"
+        tools:layout="@layout/fragment_pesagem" />
+
+    <fragment
+        android:id="@+id/nav_gastos"
+        android:name="br.edu.farol.gadoplus.ui.gastos.GastosFragment"
+        android:label="@string/menu_gastos"
+        tools:layout="@layout/fragment_gastos" />
+
+    <fragment
+        android:id="@+id/nav_propriedades"
+        android:name="br.edu.farol.gadoplus.ui.propriedade.PropriedadeFragment"
+        android:label="@string/menu_propriedades"
+        tools:layout="@layout/fragment_propriedades" />
+</navigation>

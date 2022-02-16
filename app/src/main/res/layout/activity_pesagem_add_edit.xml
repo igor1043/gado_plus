@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp">
+
+        <TextView
+            android:id="@+id/tv_pesagem_lote"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/lote"
+            android:layout_marginStart="@dimen/input_layout_margin"
+            android:layout_marginTop="@dimen/input_layout_margin"
+            android:layout_marginEnd="@dimen/input_layout_margin"/>
+
+        <Spinner
+            android:id="@+id/spinner_pesagem_lote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/input_layout_margin"
+            android:layout_marginEnd="@dimen/input_layout_margin"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tv_pesagem_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/input_layout_margin"
+            android:layout_marginTop="@dimen/input_layout_margin"
+            android:layout_marginEnd="@dimen/input_layout_margin"
+            android:hint="@string/data_da_pesagem">
+
+            <EditText
+                android:id="@+id/et_pesagem_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:inputType="date"
+                android:paddingTop="8dp"
+                android:autofillHints=""
+                android:textColor="@color/colorAccent"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tv_pesagem_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/input_layout_margin"
+            android:layout_marginTop="@dimen/input_layout_margin"
+            android:layout_marginEnd="@dimen/input_layout_margin"
+            android:hint="@string/descricao">
+
+            <EditText
+                android:id="@+id/et_pesagem_descricao"
+                android:lines="8"
+                android:minLines="6"
+                android:maxLines="10"
+                android:gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:autofillHints=""
+                android:inputType="textMultiLine" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Gado+</string>
+    <string name="navigation_drawer_open">Abrir naveção lateral</string>
+    <string name="navigation_drawer_close">Fechar naveção lateral</string>
+    <string name="nav_header_title">Igor Vinicius</string>
+    <string name="nav_header_subtitle">Fazenda Principal</string>
+    <string name="nav_header_desc">Cabeçalho de navegação</string>
+
+    <string name="date">Data</string>
+
+    <string name="menu_home">Dashboard</string>
+    <string name="menu_animais">Animais</string>
+    <string name="menu_lotes">Lotes</string>
+    <string name="menu_pesagem">Pesagem</string>
+    <string name="menu_gastos">Gastos</string>
+    <string name="menu_propriedades">Propriedades</string>
+    <string name="relatorio_de_gastos">Relatório de Gastos</string>
+    <string name="novo_tipo_de_gasto">Novo Tipo de Gasto</string>
+    <string name="nova_raca_de_animal">Nova Raca de Animal</string>
+    <string name="lote">Lote</string>
+    <string name="data_da_pesagem">Data da pesagem</string>
+    <string name="descricao">Descrição</string>
+    <string name="nome">Nome</string>
+    <string name="sexo">Sexo:</string>
+    <string name="macho">Macho</string>
+    <string name="f_mea">Fêmea</string>
+    <string name="data_de_entrada">Data de Entrada</string>
+    <string name="data_primeira_pesagem">Data Primeira Pesagem</string>
+    <string name="raca">Raça:</string>
+
+    <string name="format_data">%1$d/%2$d/%3$d</string>
+    <string name="lote1">Lote:</string>
+    <string name="primeiro_peso">Primeiro Peso</string>
+    <string name="preco_compra">Preço Compra</string>
+    <string name="data_de_desmame">Data de Desmame</string>
+    <string name="data_de_nascimento">Data de Nascimento</string>
+    <string name="observacoes">Observações</string>
+
+</resources>

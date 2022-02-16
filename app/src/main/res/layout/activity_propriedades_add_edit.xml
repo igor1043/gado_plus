@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tv_propriedade_nome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/input_layout_margin"
+            android:layout_marginTop="@dimen/input_layout_margin"
+            android:layout_marginEnd="@dimen/input_layout_margin"
+            android:hint="Nome">
+
+            <EditText
+                android:id="@+id/et_propriedade_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tv_propriedade_hectare"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/input_layout_margin"
+            android:layout_marginTop="@dimen/input_layout_margin"
+            android:layout_marginEnd="@dimen/input_layout_margin"
+            android:hint="Hectares">
+
+            <EditText
+                android:id="@+id/et_propriedade_hectare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="numberDecimal"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tv_propriedade_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/input_layout_margin"
+            android:layout_marginTop="@dimen/input_layout_margin"
+            android:layout_marginEnd="@dimen/input_layout_margin"
+            android:hint="Descrição">
+
+            <EditText
+                android:id="@+id/et_propriedade_descricao"
+                android:lines="8"
+                android:minLines="6"
+                android:maxLines="10"
+                android:gravity="top|left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:inputType="textMultiLine" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</ScrollView>

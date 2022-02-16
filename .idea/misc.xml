@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_animais_add_edit.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_animais_search.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_gastos_add_edit.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_lotes_add_edit.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_main.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_pesagem_add_edit.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_propriedades_add_edit.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/app_bar_main.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/content_main.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/fragment_propriedades.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/nav_header_main.xml" value="0.18" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/propriedade_layout.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/recyclerview_item.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="Gado_Plus.app" />
+      </set>
+    </option>
+  </component>
+</project>
