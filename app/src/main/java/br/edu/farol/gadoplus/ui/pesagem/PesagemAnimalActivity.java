@@ -144,7 +144,7 @@ public class PesagemAnimalActivity extends AppCompatActivity {
             if (idAnimal > 0 ){
                 Animal animal = animaisViewModel.getById(idAnimal);
 
-                editTextAnimal.setText(animal.getNome());
+                editTextAnimal.setText(animal.getNBrincoIdentificador());
             }else{
                 editTextAnimal.setText("...");
             }

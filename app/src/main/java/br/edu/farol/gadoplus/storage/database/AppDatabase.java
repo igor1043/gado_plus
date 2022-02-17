@@ -39,7 +39,7 @@ import br.edu.farol.gadoplus.storage.database.dao.TipoGastoDao;
                 Raca.class,
                 TipoGasto.class
         },
-        version = 2,
+        version = 4,
         exportSchema = false
 )
 @TypeConverters({Converters.class})

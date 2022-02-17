@@ -27,7 +27,7 @@ class PesagemAnimalAdapter : RecyclerView.Adapter<PesagemAnimalViewHolder>() {
         viewHolder.nome.setText("${pesagemAnimals!![i].peso}   Kg")
         try {
             val animal = animalRepository!!.getById(pesagemAnimals!![i].animalId)
-            viewHolder.descricao.text = "Animal: " + animal.nome
+            viewHolder.descricao.text = "Animal: " + animal.nBrincoIdentificador
         } catch (e: Exception) {
             println(e)
         }

@@ -29,7 +29,7 @@ public class AnimalAdapter extends RecyclerView.Adapter<AnimalAdapter.AnimalView
     @Override
     public void onBindViewHolder(AnimalViewHolder viewHolder, int i) {
 
-        viewHolder.nome.setText(animals.get(i).getNome());
+        viewHolder.nome.setText(animals.get(i).getNBrincoIdentificador());
         viewHolder.observacoes.setText(animals.get(i).getObservacoes());
         viewHolder.dtEntrada.setText("Data Ent.: " + animals.get(i).getDtEntrada());
 
