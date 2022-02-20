@@ -13,6 +13,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import br.edu.farol.gadoplus.model.Animal;
 import br.edu.farol.gadoplus.model.Gasto;
 import br.edu.farol.gadoplus.model.Lote;
+import br.edu.farol.gadoplus.model.Pasto;
 import br.edu.farol.gadoplus.model.Pesagem;
 import br.edu.farol.gadoplus.model.PesagemAnimal;
 import br.edu.farol.gadoplus.model.Propriedade;
@@ -21,6 +22,7 @@ import br.edu.farol.gadoplus.model.TipoGasto;
 import br.edu.farol.gadoplus.storage.database.dao.AnimalDao;
 import br.edu.farol.gadoplus.storage.database.dao.GastoDao;
 import br.edu.farol.gadoplus.storage.database.dao.LoteDao;
+import br.edu.farol.gadoplus.storage.database.dao.PastoDao;
 import br.edu.farol.gadoplus.storage.database.dao.PesagemAnimalDao;
 import br.edu.farol.gadoplus.storage.database.dao.PesagemDao;
 import br.edu.farol.gadoplus.storage.database.dao.PropriedadeDao;
@@ -37,9 +39,10 @@ import br.edu.farol.gadoplus.storage.database.dao.TipoGastoDao;
                 PesagemAnimal.class,
                 Propriedade.class,
                 Raca.class,
-                TipoGasto.class
+                TipoGasto.class,
+                Pasto.class
         },
-        version = 4,
+        version = 5,
         exportSchema = false
 )
 @TypeConverters({Converters.class})
@@ -53,6 +56,7 @@ public abstract class AppDatabase extends RoomDatabase {
     public abstract PropriedadeDao propriedadeDao();
     public abstract RacaDao racaDao();
     public abstract TipoGastoDao tipoGastoDao();
+    public abstract PastoDao pastoDao();
 
 
     public static final String DATABSE_NAME = "database.db";
@@ -81,10 +85,14 @@ public abstract class AppDatabase extends RoomDatabase {
 
         private RacaDao racaDao;
         private TipoGastoDao tipoGasto;
+        private LoteDao lotes;
+        private PropriedadeDao proprieadade;
 
         private PopulateDbAsyncTask(AppDatabase db) {
             racaDao = db.racaDao();
             tipoGasto = db.tipoGastoDao();
+            lotes = db.loteDao();
+            proprieadade = db.propriedadeDao();
         }
 
         @Override
@@ -106,6 +114,11 @@ public abstract class AppDatabase extends RoomDatabase {
             tipoGasto.insert(new TipoGasto("Depreciação"));
             tipoGasto.insert(new TipoGasto("Despesas diversas"));
 
+            proprieadade.insert(new Propriedade("Propriedade 1",5.0,"Descrição"));
+
+            lotes.insert(new Lote("lote1",1,"Descrição"));
+            lotes.insert(new Lote("lote2",1,"Descrição"));
+            lotes.insert(new Lote("lote3",1,"Descrição"));
 
             return null;
         }

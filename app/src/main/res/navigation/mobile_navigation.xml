@@ -36,6 +36,12 @@
         tools:layout="@layout/fragment_gastos" />
 
     <fragment
+        android:id="@+id/nav_patos"
+        android:name="br.edu.farol.gadoplus.ui.pastos.PastoFragment"
+        android:label="@string/menu_pastos"
+        tools:layout="@layout/fragment_pastos" />
+
+    <fragment
         android:id="@+id/nav_propriedades"
         android:name="br.edu.farol.gadoplus.ui.propriedade.PropriedadeFragment"
         android:label="@string/menu_propriedades"

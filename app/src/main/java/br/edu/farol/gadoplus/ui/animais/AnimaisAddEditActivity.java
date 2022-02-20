@@ -30,7 +30,6 @@ import java.util.List;
 import br.edu.farol.gadoplus.R;
 import br.edu.farol.gadoplus.model.Lote;
 import br.edu.farol.gadoplus.model.Raca;
-import br.edu.farol.gadoplus.ui.gastos.GastosAddEditActivity;
 import br.edu.farol.gadoplus.ui.lotes.LotesViewModel;
 import br.edu.farol.gadoplus.ui.raca.RacaViewModel;
 import br.edu.farol.gadoplus.util.Util;

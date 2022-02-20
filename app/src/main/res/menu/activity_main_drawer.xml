@@ -26,6 +26,10 @@
             android:icon="@drawable/ic_menu_gastos"
             android:title="@string/menu_gastos" />
         <item
+            android:id="@+id/nav_patos"
+            android:icon="@drawable/ic_menu_propriedades"
+            android:title="@string/menu_pastos" />
+        <item
             android:id="@+id/nav_propriedades"
             android:icon="@drawable/ic_menu_propriedades"
             android:title="@string/menu_propriedades" />

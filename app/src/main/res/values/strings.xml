@@ -14,6 +14,7 @@
     <string name="menu_pesagem">Pesagem</string>
     <string name="menu_gastos">Gastos</string>
     <string name="menu_propriedades">Propriedades</string>
+    <string name="menu_pastos">Pastos</string>
     <string name="relatorio_de_gastos">Relatório de Gastos</string>
     <string name="novo_tipo_de_gasto">Novo Tipo de Gasto</string>
     <string name="nova_raca_de_animal">Nova Raca de Animal</string>

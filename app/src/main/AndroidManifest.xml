@@ -16,6 +16,7 @@
         <activity android:name=".ui.pesagem.PesagemAddEditActivity" />
         <activity android:name=".ui.propriedade.PropriedadeAddEditActivity" />
         <activity android:name=".ui.lotes.LotesAddEditActivity" />
+        <activity android:name=".ui.pastos.PastosAddEditActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"

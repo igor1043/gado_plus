@@ -6,17 +6,25 @@
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_animais_add_edit.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_animais_search.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_gastos_add_edit.xml" value="0.14635416666666667" />
-        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_lotes_add_edit.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_lotes_add_edit.xml" value="0.33" />
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_main.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_pastos_add_edit.xml" value="0.17426545086119555" />
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_pesagem_add_edit.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/activity_propriedades_add_edit.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/app_bar_main.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/content_main.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/fragment_lotes.xml" value="0.17426545086119555" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/fragment_pastos.xml" value="0.17426545086119555" />
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/fragment_propriedades.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/nav_header_main.xml" value="0.18" />
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/propriedade_layout.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/recyclerview_item.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/layout/recyclerview_pastos.xml" value="0.25" />
         <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+        <entry key="..\:/Users/igorv/AndroidStudioProjects/Gado-Plus-master/app/src/main/res/menu/menu_edit.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/igorv/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_dropdown_item.xml" value="0.17426545086119555" />
+        <entry key="..\:/Users/igorv/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_item.xml" value="0.1734375" />
       </map>
     </option>
   </component>
